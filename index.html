@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Shan Farewell</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/flip.css">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="hero-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 offset-lg-2 col-lg-10">
+                    <div class="entry-header">
+                        <h2>Hi Shan!</h2>
+
+                        <div class="entry-meta-date">
+                            13.03.22
+                        </div><!-- .entry-meta-date -->
+                    </div><!-- .entry-header -->
+
+                    
+                    <div class="countdown flex flex-wrap justify-content-between">
+                        <div class="countdown-holder">
+                            <div class="dday" id="dday"></div>
+                            <label>Day</label>
+                        </div>
+                        <div class="countdown-holder">
+                            <div class="dhour" id="dhour"></div>
+                            <label>Hours</label>
+                        </div>
+                        <div class="countdown-holder">
+                            <div class="dmin" id="dmin"></div>
+                            <label>Minutes</label>
+                        </div>
+                        <div class="countdown-holder">
+                            <div class="dsec" id="dsec"></div>
+                            <label>Seconds</label>
+                        </div> 
+                    </div>                
+                </div><!-- .col-12 -->
+            </div><!-- row -->
+
+            <div class="row">
+                <div class="col-12 ">
+                    <div class="entry-footer">
+                        <a href="#" id="hiddenFlip" class="btn current">Let's Fun</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <div>
+                        <span class="close">&times;</span>
+                    </div>
+                    <div>
+                        <div class="overall-flip-cards">
+                            <div class="flip-box" id="flip1">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>1</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/1.jpg" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box" id="flip2">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>2</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/2.png" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box" id="flip3">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>3</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/3.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box" id="flip4">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>4</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/4.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="flip-box" id="flip5">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>5</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/5.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip6">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>6</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/6.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip7">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>7</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/7.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip8">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>8</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/8.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip9">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>9</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/9.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip10">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>10</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/10.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip11">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>11</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/11.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip12">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>12</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/12.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip13">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>13</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/13.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip14">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>14</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/14.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip15">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>15</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/15.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip16">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>16</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/16.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip17">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>17</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/17.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip18">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>18</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/18.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip19">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>19</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/19.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip20">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>20</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/20.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip21">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>21</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/21.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip22">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>22</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/22.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="flip-box" id="flip23">
+                                <div class="flip-box-inner">
+                                    <div class="flip-box-front">
+                                        <h2>23</h2>
+                                    </div>
+                                    <div class="flip-box-back">
+                                        <img src="images/23.jfif" alt="flip-image" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- .container -->
+    </div><!-- .hero-content -->
+
+    <footer class="site-footer">
+        <div class="footer-cover-title flex justify-content-center align-items-center">
+            <h2>SHAN</h2>
+        </div><!-- .site-footer -->
+
+        <div class="footer-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="entry-title">
+                            <a href="#">
+                                <H3>Not a Good Bye...</H3>
+                            </a>
+                        </div><!-- entry-title -->
+
+                        <div class="copyright-info">
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> All rights reserved | Teamsite
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </div><!-- copyright-info -->
+                    </div><!-- col -->
+                </div><!-- row -->
+            </div><!-- container -->
+        </div><!-- footer-content-wrapper -->
+    </footer><!-- site-footer -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type='text/javascript' src='js/jquery.js'></script>
+    <script type='text/javascript' src='js/masonry.pkgd.min.js'></script>
+    <script type='text/javascript' src='js/jquery.collapsible.min.js'></script>
+    <script type='text/javascript' src='js/swiper.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countdown.min.js'></script>
+    <script type='text/javascript' src='js/circle-progress.min.js'></script>
+    <script type='text/javascript' src='js/jquery.countTo.min.js'></script>
+    <script type='text/javascript' src='js/custom.js'></script>
+    <script type='text/javascript' src="js/flip.js"></script>
+</body>
+
+</html>
